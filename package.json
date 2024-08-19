@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "Youtube Backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Raushan Kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
