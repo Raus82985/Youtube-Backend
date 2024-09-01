@@ -5,3 +5,8 @@
 #installation process
 
 npm i -D nodemon
+
+cookie-parser :- 
+
+when ever we need to use middlewere thhe we use it through app.use() insted of app.get
+cors :- app.use(cors())
